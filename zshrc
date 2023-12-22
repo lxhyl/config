@@ -2,7 +2,7 @@
 # clone a git repository and open it in sublime merge and visual studio code
 c() {
     if [ -z "$1" ]; then
-        echo "Usage: gitcloneandcode <repository_url>"
+        echo "Usage: c <repository_ssh_url>"
         return 1
     fi
 
